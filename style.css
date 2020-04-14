@@ -57,6 +57,13 @@ a{
     display: inline-block;
     margin-bottom: 13rem;
 }
+.projectgml{
+    height: 3em;
+    font-family: var(--txt);
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 13rem;
+}
 .porfys{
     display: flex;
     flex-direction: column;
@@ -140,3 +147,26 @@ button{
       box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
     }
   }
+
+
+/* медиазапрос */
+@media(min-width: 0px) and (max-width: 600px){
+.downinfo{
+    text-align: center;
+    flex-direction:column;
+}
+.project{
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+}
+/* .downinfoportf{
+    margin-top: 20rem;
+} */
+.porfys{
+    margin-top: 3rem;
+    margin-bottom: 14rem;
+}
+.goto{
+    margin-right: 2rem;
+}
+}
