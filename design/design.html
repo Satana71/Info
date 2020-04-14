@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="slider.js"></script>
+    <link rel="stylesheet" href="des.css">
+    <link rel="shortcut icon" href="icon/painting.png" type="book">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">   
+     
+    <title>SergeevaDesign</title>
+</head>
+<body>
+    <div class="container">
+        <div class="preview">
+            <div class="loginf">
+            <div class="uplogo"><img class="logostud" src="icon/draw.png" alt="логотип"></div>
+                <div class="textlogo"><p class="logp">Портфолио визуализатора интерьеров</p></div>
+            </div>
+            <div class="buttn">
+                <a class="upinf" href="#me"><span>ОБО МНЕ</span></a>
+                <a class="upinf" href="#skills"><span>МОИ НАВЫКИ</span></a>
+            </div>
+        </div>
+        <!-- слайдер -->
+        <div class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__items">
+              <div class="slider__item">
+                <div><img id="slid" src="img/spaln.jpg" alt=""></div>
+              </div>
+              <div class="slider__item">
+                <div><img id="slid" src="img/spalnzel.jpg" alt=""></div>
+              </div>
+              <div class="slider__item">
+                <div><img id="slid" src="img/gostin1.jpg" alt=""></div>
+              </div>
+              <div class="slider__item">
+                <div><img id="slid" src="img/gostin2.jpg" alt=""></div>
+              </div>
+              <div class="slider__item">
+                <div><img id="slid" src="img/gostin3.jpg" alt=""></div>
+              </div>
+              <div class="slider__item">
+                <div><img id="slid" src="img/gostev.jpg" alt=""></div>
+              </div>
+              <div class="slider__item">
+                <div><img id="slid" src="img/tual.jpg" alt=""></div>
+              </div>
+              <div class="slider__item">
+                <div><img id="slid" src="img/vanna.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <a class="slider__control slider__control_prev" href="#" role="button"></a>
+          <a class="slider__control slider__control_next slider__control_show" href="#" role="button"></a>
+        </div>
+        <script>
+          slideShow('.slider', {
+            isAutoplay: true
+          });
+        </script>
+        <div class="bio">
+          <p id="me">Обо мне</p>
+        </div>
+        <div class="myhistory">
+          <p class="profile">Добро пожаловать на мой сайт портфолио. Меня зовут Сергеева Мария, Я являюсь 3д визуализатором и дизайнером интерьера. В 2019-м году получила высшее образование по специальности дизайнер интерьера в РГУ имени А. Н. Косыгина. Визуализацией занимаюсь на протяжении двух лет. В 2019-м году закончила курсы по 3D визуализации интерьера в школе Ильи Изотова. На сегодняшний день постоянно совершенствую свои навыки визуализации.</p>
+        <img id="mephoto" class="mephoto" src="img/mephoto.jpeg" alt="">
+        </div>
+        <div class="bio">
+          <p id="skills">Мои навыки</p>
+        </div>
+        <div class="skills">
+          <div class="Archi skl">
+            <img class="imgskills" src="icon/archi.png" alt="">
+            <p class="skillinfo ard">Создание чертежей</p> 
+          </div>
+          <div class="d3max skl">
+            <img class="imgskills"  src="icon/3dmax.png" alt="">
+            <p class="skillinfo ard">Моделинг. Рендер</p> 
+          </div>
+          <div class="Photoshop skl">
+            <img class="imgskills" src="icon/photoshop.png" alt="">
+            <p class="skillinfo">Постобработка рендеров</p> 
+          </div>
+        </div>
+        <div class="footer">
+          <p class="footerinfo">Данный сайт был разработан как портфолио, чтобы вернуться назад, перейдите по <a href="../index.html">ссылке</a></p>
+        </div>
+    </div>
+</body>
+</html>
