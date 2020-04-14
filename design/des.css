@@ -295,10 +295,12 @@ img{
     text-align: center;
     display: flex;
     padding-left: 1rem;
-
-
   }
   .ard{
     padding-left: 33px;
   }
+  .skl{
+    animation-duration:"1.2s";
+  }
+
 }
