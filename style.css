@@ -78,21 +78,21 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    max-width: 65%;
+    max-width: 50%;
     cursor: pointer;
 }
 .downinfoportf{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    max-width: 70%;
+    max-width: 50%;
     cursor: pointer;
 }
 .downlogo{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    max-width: 45%;
+    max-width: 28%;
 }
 .myinfo{
     height: 3em;
@@ -155,16 +155,32 @@ button{
     text-align: center;
     flex-direction:column;
 }
+a{
+    font-size: 16px;
+}
+button{
+    font-size: 16px;
+}
+.button{
+    width: 3rem;
+    height: 3rem;
+    margin-left: -1.5rem;
+    margin-top: -2.3rem;
+}
 .project{
     margin-top: 6rem;
     margin-bottom: 7rem;
 }
-/* .downinfoportf{
-    margin-top: 20rem;
-} */
 .porfys{
     margin-top: 3rem;
     margin-bottom: 14rem;
+}
+.callme{
+    width: 6rem;
+    height: 6rem;
+}
+.downlogo{
+    max-width: 90%;
 }
 .goto{
     margin-right: 2rem;
