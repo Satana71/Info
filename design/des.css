@@ -34,7 +34,7 @@ body{
   width: 250px;
   height: 100px;
   position: absolute;
-  left: 16%;top: 45%;
+  left: 42%;top: 43%;
   color:#fff;
   font-size:40px;
   letter-spacing:-2px;
@@ -338,6 +338,9 @@ img{
   }
   .skl{
     animation-duration:"1.2s";
+  }
+  .contpre{
+    left: 16%;top: 45%;
   }
 
 }
