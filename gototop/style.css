@@ -567,3 +567,14 @@ img{
     text-align: right;
     float: right;
 }
+
+
+
+@media(min-width: 0px) and (max-width: 600px){
+    .container{
+        max-width: 100%;
+    }
+    .card{
+        max-width: 50%;
+    }
+}

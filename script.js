@@ -1,7 +1,9 @@
 $('.button').click(function(){
     $('.allinfo p').fadeIn(1500);
-    $('.allinfo ф').fadeIn(1500);
+    // $('.allinfo ф').fadeIn(1500);
 });
+
+
 
 let tooltipElem;
 

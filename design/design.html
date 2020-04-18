@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  
     <script src="slider.js"></script>
     <link rel="stylesheet" href="des.css">
     <link rel="stylesheet" href="animate.css">
@@ -14,6 +15,22 @@
     <title>SergeevaDesign</title>
 </head>
 <body>
+
+  <div id="p_prldr">
+    <div class="contpre">
+      <span class="svg_anm"></span>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(window).on('load', function () {
+function showLoader () {
+var $preloader = $('#p_prldr'),
+$svg_anm = $preloader.find('.svg_anm');
+$svg_anm.fadeOut();
+$preloader.delay().fadeOut('slow');
+}
+window.setTimeout( showLoader, 3000);
+  });</script>
     <div class="container">
         <div class="preview">
             <div class="loginf">
